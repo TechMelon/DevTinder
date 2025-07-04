@@ -4,15 +4,17 @@
   "description": "Tinder for devs",
   "main": "index.js",
   "scripts": {
-    "start": "node src/index.js",
-    "dev": "nodemon src/index.js"
+    "start": "node src/middlewares/index.js",
+    "dev": "nodemon src/middlewares/index.js"
   },
   "author": "sneha bhardwaj",
   "license": "ISC",
   "dependencies": {
-    "express": "^5.1.0"
+    "express": "^5.1.0",
+    "mongoose": "^8.15.1"
   },
   "devDependencies": {
     "nodemon": "^2.0.22"
   }
 }
+
